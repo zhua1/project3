@@ -12,12 +12,13 @@ from sklearn import preprocessing
 future = int(30)
 # identify the stocks
 tickers = ['AAPL', 'DIS', 'TXN', 'CAT', 'NVDA', 'V', 'CMCSA', 'LMT', 'GOOG', 'TSLA']
-names_dict = {'AAPL':'Apple', 'DIS':'Disney', 'TXN':'Texas Instruments', 'CAT':'Caterpilla', 'NVDA':'Nivdia', 'CMCSA':'Comcast', 'LMT':'Lockheed Martin', 'GOOG':'Google', 'TSLA':'Tesla'}
+names_dict = {'AAPL':'Apple', 'DIS':'Disney', 'TXN':'Texas Instruments', 'CAT':'Caterpilla', 'NVDA':'Nivdia', 'V':'Visa', 'CMCSA':'Comcast', 'LMT':'Lockheed Martin', 'GOOG':'Google', 'TSLA':'Tesla'}
 sent_dict = {'AAPL':'Apple', 
 'DIS':'Disney', 
 'TXN':"Texas Instruments Inc. (stock ticker: TI) is an American technology company that designs and manufactures semiconductors and various integrated circuits, which it sells to electronics designers and manufacturers globally. Headquartered in Dallas, Texas, United States, TI is one of the top ten semiconductor companies worldwide, based on sales volume. Texas Instruments' focus is on developing analog chips and embedded processors, which accounts for more than 80% of their revenue. TI also produces TI digital light processing (DLP) technology and education technology products including calculators, microcontrollers and multi-core processors. To date, TI has more than 43,000 patents worldwide.", 
 'CAT':'Caterpilla', 
 'NVDA':'Nivdia', 
+'V': 'Visa',
 'CMCSA':"Comcast (CMSCA) is the world's largest broadcasting and cable corporation. Comcast is the largest cable television and internet provider services. The company began in 1963 in Tupelo, Mississippi and went public in 1972 with an initial price of $7 per share. Comcast's stock price has risen steadily since it was initially offered and peaked for $42 a share in February 2018.", 
 'LMT':'Lockheed Martin', 
 'GOOG':'Google', 
